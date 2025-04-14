@@ -37,10 +37,10 @@ class MainActivity : AppCompatActivity() {
 
                     tVAnswer.text = answer.toString()
                 } catch (e: NumberFormatException) {
-                    tVAnswer.text = "Non-numeric input."
+                    tVAnswer.text = "\uD83C\uDD3D\uD83C\uDD3E\uD83C\uDD3D-\uD83C\uDD3D\uD83C\uDD44\uD83C\uDD3C\uD83C\uDD34\uD83C\uDD41\uD83C\uDD38\uD83C\uDD32 \uD83C\uDD38\uD83C\uDD3D\uD83C\uDD3F\uD83C\uDD44\uD83C\uDD43 :("
                 }
             } else {
-                tVAnswer.text = "Empty input."
+                tVAnswer.text = "\uD83C\uDD34\uD83C\uDD3C\uD83C\uDD3F\uD83C\uDD43\uD83C\uDD48 \uD83C\uDD38\uD83C\uDD3D\uD83C\uDD3F\uD83C\uDD44\uD83C\uDD43 :("
             }
         }
     }
